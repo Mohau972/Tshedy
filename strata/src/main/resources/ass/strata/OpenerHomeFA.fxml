@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ass.strata.OpenerHomeFA">
+    <children>
+        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="143.0" layoutY="23.0" prefHeight="33.0" prefWidth="313.0" text="FACULTY ADMIN">
+            <font>
+                <Font name="System Bold Italic" size="36.0" />
+            </font>
+        </Label>
+        <Button fx:id="btnAddYear" alignment="CENTER" contentDisplay="CENTER" layoutX="81.0" layoutY="132.0" mnemonicParsing="false" onAction="#addAcademicYear" prefHeight="25.0" prefWidth="157.0" text="Add Academic Year" />
+        <Button fx:id="btnModule" alignment="CENTER" contentDisplay="CENTER" layoutX="81.0" layoutY="168.0" mnemonicParsing="false" onAction="#addModule" prefHeight="25.0" prefWidth="157.0" text="Add Module" />
+        <Button fx:id="btnLecturer" alignment="CENTER" contentDisplay="CENTER" layoutX="364.0" layoutY="95.0" mnemonicParsing="false" onAction="#addLecturer" prefHeight="25.0" prefWidth="157.0" text="Add Lecturer" />
+        <Button fx:id="btnSemester" alignment="CENTER" contentDisplay="CENTER" layoutX="365.0" layoutY="132.0" mnemonicParsing="false" onAction="#addSemester" prefHeight="25.0" prefWidth="157.0" text="Add Semester" />
+        <!--<Button fx:id="btnProfile" alignment="CENTER" contentDisplay="CENTER" layoutX="140.0" layoutY="144.0" mnemonicParsing="false" onAction="#viewProfile" prefHeight="25.0" prefWidth="157.0" text="View Profile" />-->
+        <Button fx:id="btnClass" alignment="CENTER" contentDisplay="CENTER" layoutX="365.0" layoutY="168.0" mnemonicParsing="false" onAction="#addClass" prefHeight="25.0" prefWidth="157.0" text="Add Class" />
+        <Button fx:id="btnRole" alignment="CENTER" contentDisplay="CENTER" layoutX="81.0" layoutY="205.0" mnemonicParsing="false" onAction="#assignRole" prefHeight="25.0" prefWidth="157.0" text="Assign Role " />
+        <Button fx:id="btnModule1" alignment="CENTER" contentDisplay="CENTER" layoutX="364.0" layoutY="205.0" mnemonicParsing="false" onAction="#assignModule" prefHeight="25.0" prefWidth="157.0" text="Assign Module" />
+        <Button fx:id="btnView1" alignment="CENTER" contentDisplay="CENTER" layoutX="81.0" layoutY="241.0" mnemonicParsing="false" onAction="#view" prefHeight="25.0" prefWidth="157.0" text="View" />
+        <Button fx:id="btnAddAssign" alignment="CENTER" contentDisplay="CENTER" layoutX="364.0" layoutY="241.0" mnemonicParsing="false" onAction="#addAssign" prefHeight="25.0" prefWidth="157.0" text="Assign and Add Students " />
+      <Button fx:id="btnLogout" layoutX="355.0" layoutY="304.0" mnemonicParsing="false" onAction="#Logout" prefHeight="33.0" prefWidth="122.0" text="LOG OUT">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnView" alignment="CENTER" contentDisplay="CENTER" layoutX="81.0" layoutY="95.0" mnemonicParsing="false" onAction="#viewProfile" prefHeight="25.0" prefWidth="157.0" text="View Profile" />
+      <Button fx:id="CancelID" layoutX="123.0" layoutY="304.0" mnemonicParsing="false" onAction="#CancelAction" prefHeight="33.0" prefWidth="122.0" text="Cancel" />
+    </children>
+</AnchorPane>

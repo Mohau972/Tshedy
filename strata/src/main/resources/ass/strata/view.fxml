@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="526.0" prefWidth="675.0" style="-fx-background-color: PINK;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ass.strata.view">
+    <children>
+        <TableView fx:id="infoTable1" layoutX="50.0" layoutY="14.0" prefHeight="400.0" prefWidth="205.0">
+            <columns>
+                <TableColumn fx:id="lecturerColumn" prefWidth="204.0" text="Lecturers" />
+            </columns>
+        </TableView>
+        <TableView fx:id="infoTable2" layoutX="254.0" layoutY="14.0" prefHeight="400.0" prefWidth="197.0">
+            <columns>
+                <TableColumn fx:id="moduleColumn" prefWidth="196.0" text="Modules" />
+            </columns>
+        </TableView>
+        <TableView fx:id="infoTable3" layoutX="449.0" layoutY="14.0" prefHeight="400.0" prefWidth="176.0">
+            <columns>
+                <TableColumn fx:id="semesterColumn" prefWidth="175.0" text="Semesters" />
+            </columns>
+        </TableView>
+        <Button layoutX="392.0" layoutY="426.0" mnemonicParsing="false" onAction="#viewAllInfo" prefHeight="43.0" prefWidth="155.0" text="View All Info" />
+      <Button fx:id="CancelID" layoutX="153.0" layoutY="426.0" mnemonicParsing="false" onAction="#CancelAction" prefHeight="43.0" prefWidth="155.0" text="Cancel" />
+    </children>
+</AnchorPane>

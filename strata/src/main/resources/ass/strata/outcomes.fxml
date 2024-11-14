@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ass.strata.Outcomes">
+   <children>
+      <Pane prefHeight="418.0" prefWidth="610.0" style="-fx-background-color: PINK;">
+         <children>
+            <Button fx:id="CancelID" layoutX="210.0" layoutY="244.0" mnemonicParsing="false" onAction="#CancelAction" prefHeight="25.0" prefWidth="82.0" text="CANCEL">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <TextArea fx:id="txtOutcomes" layoutX="286.0" layoutY="138.0" prefHeight="38.0" prefWidth="155.0" />
+            <TextArea fx:id="txtChapter" layoutX="284.0" layoutY="84.0" prefHeight="38.0" prefWidth="155.0" />
+            <Label layoutX="118.0" layoutY="91.0" prefHeight="25.0" prefWidth="114.0" text="CHAPTER">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="117.0" layoutY="150.0" prefHeight="25.0" prefWidth="155.0" text="LEARNING OUTCOMES">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="210.0" layoutY="23.0" prefHeight="38.0" prefWidth="196.0" text="CHAPTER OUTCOMES">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnAdd" layoutX="354.0" layoutY="245.0" mnemonicParsing="false" onAction="#Add" prefHeight="25.0" prefWidth="90.0" text="ADD">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

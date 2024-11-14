@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ass.strata.MyLog3">
+    <SplitPane layoutX="-2.0" prefHeight="400.0" prefWidth="600.0">
+        <items>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="398.0" prefWidth="613.0" style="-fx-background-color: pink;">
+                <children>
+                    <Text layoutX="210.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LOGIN PAGE">
+                        <font>
+                            <Font name="System Bold" size="30.0" />
+                        </font>
+                    </Text>
+                    <Label layoutX="130.0" layoutY="132.0" text="Full_name">
+                        <font>
+                            <Font name="System Bold" size="15.0" />
+                        </font>
+                    </Label>
+                    <TextField fx:id="txtUserName" layoutX="227.0" layoutY="127.0" prefHeight="31.0" prefWidth="178.0" promptText="Enter username">
+                        <font>
+                            <Font name="System Bold" size="13.0" />
+                        </font>
+                    </TextField>
+                    <Label layoutX="132.0" layoutY="174.0" text="Password">
+                        <font>
+                            <Font name="System Bold" size="15.0" />
+                        </font>
+                    </Label>
+                    <Button fx:id="sendID" layoutX="338.0" layoutY="247.0" mnemonicParsing="false" onAction="#Login2" prefHeight="31.0" prefWidth="67.0" text="Login" />
+                    <Button fx:id="CancelID" layoutX="150.0" layoutY="247.0" mnemonicParsing="false" onAction="#CancelAction" prefHeight="31.0" prefWidth="60.0" text="Cancel" />
+                    <PasswordField fx:id="txtPass" layoutX="227.0" layoutY="171.0" prefHeight="27.0" prefWidth="178.0" promptText="Enter password">
+                        <font>
+                            <Font name="System Bold" size="13.0" />
+                        </font>
+                    </PasswordField>
+                    <Button fx:id="SignUp" layoutX="249.0" layoutY="247.0" mnemonicParsing="false" onAction="#signUp" prefHeight="31.0" prefWidth="67.0" text="Sign Up" />
+                </children>
+            </AnchorPane>
+        </items>
+    </SplitPane>
+</AnchorPane>

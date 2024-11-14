@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: pink;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ass.strata.addModule">
+    <children>
+        <Label layoutX="199.0" layoutY="65.0" prefHeight="47.0" prefWidth="250.0" text="ADDING MODULE">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <TextField fx:id="moduleNameField" layoutX="203.0" layoutY="124.0" prefHeight="37.0" prefWidth="195.0" promptText="Module Name" />
+        <Button layoutX="292.0" layoutY="177.0" mnemonicParsing="false" onAction="#addModule" prefHeight="31.0" prefWidth="105.0" text="Add Module" />
+      <Button fx:id="CancelID" layoutX="209.0" layoutY="178.0" mnemonicParsing="false" onAction="#CancelAction" prefHeight="31.0" prefWidth="60.0" text="Cancel" />
+    </children>
+</AnchorPane>

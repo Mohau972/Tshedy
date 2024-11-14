@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ass.strata.OpenerHomeLec">
+    <children>
+        <Pane layoutY="-1.0" prefHeight="409.0" prefWidth="600.0" style="-fx-background-color: grey;" AnchorPane.bottomAnchor="-8.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-1.0">
+            <children>
+                <Button layoutX="155.0" layoutY="141.0" mnemonicParsing="false" onAction="#addAttendance" prefHeight="40.0" prefWidth="155.0" text="ATTENDANCE">
+                    <font>
+                        <Font name="System Bold" size="12.0" />
+                    </font></Button>
+                <Button fx:id="btnLogOut" layoutX="272.0" layoutY="293.0" mnemonicParsing="false" onAction="#LogOut" prefHeight="40.0" prefWidth="98.0" text="LOG OUT">
+                    <font>
+                        <Font name="System Bold" size="12.0" />
+                    </font>
+                </Button>
+            <Button layoutX="155.0" layoutY="200.0" mnemonicParsing="false" onAction="#learningOutcomes" prefHeight="40.0" prefWidth="155.0" text="LEARNING OUTCOMES">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Label layoutX="204.0" layoutY="81.0" prefHeight="40.0" prefWidth="270.0" text="LECTURER ROLES">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

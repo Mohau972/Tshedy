@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: pink;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ass.strata.assRole">
+    <children>
+        <Button layoutX="264.0" layoutY="252.0" mnemonicParsing="false" onAction="#assignLecturerRole" text="Assign Lecturer Role" />
+        <TextField fx:id="roleField" layoutX="155.0" layoutY="189.0" prefHeight="35.0" prefWidth="233.0" promptText="Lecturer Role" />
+        <TextField fx:id="lecturerNumberField" layoutX="154.0" layoutY="136.0" prefHeight="35.0" prefWidth="233.0" promptText="lecturer Number" />
+        <Label layoutX="196.0" layoutY="84.0" prefHeight="39.0" prefWidth="245.0" text="ASSIGNING ROLE">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+      <Button fx:id="CancelID" layoutX="158.0" layoutY="252.0" mnemonicParsing="false" onAction="#CancelAction" prefHeight="25.0" prefWidth="85.0" text="Cancel" />
+    </children>
+</AnchorPane>

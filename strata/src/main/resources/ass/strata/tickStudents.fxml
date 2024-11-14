@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ass.strata.tickStudents">
+    <children>
+        <Pane layoutY="8.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: PINK;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <Button fx:id="CancelID" layoutX="271.0" layoutY="316.0" mnemonicParsing="false" onAction="#CancelAction" prefHeight="25.0" prefWidth="98.0" text="CANCEL">
+                    <font>
+                        <Font name="System Bold" size="12.0" />
+                    </font></Button>
+            <Label layoutX="196.0" layoutY="13.0" prefHeight="44.0" prefWidth="175.0" text="ATTENDANCE FORM">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnAdd" layoutX="379.0" layoutY="316.0" mnemonicParsing="false" onAction="#ADD" prefHeight="25.0" prefWidth="98.0" text="ADD">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <TableView fx:id="students" layoutX="72.0" layoutY="82.0" prefHeight="212.0" prefWidth="405.0">
+              <columns>
+                <TableColumn fx:id="studentColumn" editable="false" prefWidth="310.0" sortable="false" text="Students " />
+                <TableColumn fx:id="presColumn" editable="true" minWidth="0.0" prefWidth="94.0" sortable="false" text="Present" />
+              </columns>
+            </TableView>
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

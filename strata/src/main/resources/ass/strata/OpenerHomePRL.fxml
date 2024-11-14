@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ass.strata.OpenerHomePRL">
+   <children>
+      <Pane prefHeight="418.0" prefWidth="610.0" style="-fx-background-color: PINK;">
+         <children>
+            <Button fx:id="CancelID" layoutX="300.0" layoutY="287.0" mnemonicParsing="false" onAction="#CancelAction" text="CANCEL">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <TextArea fx:id="lblRecommendations" layoutX="298.0" layoutY="227.0" prefHeight="38.0" prefWidth="155.0" />
+            <TextArea fx:id="lblChallenges" layoutX="296.0" layoutY="173.0" prefHeight="38.0" prefWidth="155.0" />
+            <ChoiceBox fx:id="lblClass" layoutX="300.0" layoutY="81.0" prefWidth="150.0" />
+            <ChoiceBox fx:id="lblModule" layoutX="300.0" layoutY="125.0" prefWidth="150.0" />
+            <Button fx:id="btnLogout" layoutX="167.0" layoutY="287.0" mnemonicParsing="false" onAction="#Logout" prefHeight="25.0" prefWidth="98.0" text="LOG OUT">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Label layoutX="146.0" layoutY="81.0" prefHeight="25.0" prefWidth="70.0" text="Class">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="146.0" layoutY="125.0" prefHeight="25.0" prefWidth="70.0" text="Module">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="146.0" layoutY="180.0" prefHeight="25.0" prefWidth="98.0" text="Challenges">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="147.0" layoutY="230.0" prefHeight="25.0" prefWidth="137.0" text="Recommendations">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="210.0" layoutY="23.0" prefHeight="38.0" prefWidth="196.0" text="WEEKLY REPORT">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnAdd" layoutX="406.0" layoutY="287.0" mnemonicParsing="false" onAction="#Add" text="ADD">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

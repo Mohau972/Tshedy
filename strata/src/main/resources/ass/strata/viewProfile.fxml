@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: whi;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ass.strata.ViewProfile">
+   <children>
+      <ImageView fitHeight="137.0" fitWidth="220.0" layoutX="237.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@profile.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lblUserName" layoutX="242.0" layoutY="227.0" prefHeight="34.0" prefWidth="138.0" />
+   </children>
+</AnchorPane>
